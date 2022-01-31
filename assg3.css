@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    
+    cursor: pointer;
+}
+
+
+.flex-heading {
+    
+    display: flex;
+    box-shadow: 0 0 5px gray;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    height: 60px;
+    
+}
+
+
+.flex-heading .navigation-left{
+
+    display: flex;
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+
+.flex-heading .navigation-left #menu{
+
+    height: 2rem;
+    width: 3rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.flex-heading .navigation-left #youtube{
+
+    height: 50px;
+    width: 150px;   
+}
+
+
+.flex-heading .navigation-right{
+
+    display: flex;
+    margin-right: 0.5%;
+    margin-top: 1%;
+}
+
+.flex-heading .navigation-right img{
+
+    margin-right: 2rem;
+    height: 2rem;
+    width: 2rem
+
+}
+
+.flex-heading .navigation-right #user{
+
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.flex-heading .navigation-middle{
+
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+.flex-heading .navigation-middle .search{
+
+    display: flex;
+    margin-right: 1rem;   
+}
+
+.flex-heading .navigation-middle .search #varsha{
+
+    display: flex; 
+    padding: 10px 200px 10px 13px;
+    margin-right: 0.5rem;
+    height: 40px;
+    width: 450px;
+}
+
+.flex-heading .navigation-middle .search #secondicon{
+
+   height: 30px;
+   width: 10px;
+   top: 60%;
+   bottom: 50%;
+   
+}
+
+.flex-heading .navigation-middle #voice{
+
+   height: 2rem;
+   width: 1rem;
+    
+}
+
+.main-body .side-navigation{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.side-navigation{
+
+    width: 80px;
+    box-shadow: 0 0 3px grey;
+    background-color: white;
+    position: fixed;
+    height: 100vh;
+    margin-top: 3.8rem;
+}
+
+.side-navigation #sideicon{
+
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    width: 3vw;
+    height: 2rem;
+}
+
+.side-navigation .side-name{
+
+    margin-left: 5px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.videoArea iframe{
+
+    width: 20vw;
+    height: 200px;
+    display: flex;
+}
+
+
+.videoArea .first{
+
+    margin-left: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videoArea .first .channel{
+    display: flex;
+}
+
+.videoArea .channel img{
+   
+    height: 40px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.videoArea .first .video{
+
+    margin-left: 2rem;;
+}
+
+.videoArea{
+
+    pointer-events: none;
+    padding-top: 110px;
+}
+
+
